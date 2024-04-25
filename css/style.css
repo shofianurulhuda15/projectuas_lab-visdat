@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 380vh; Menempatkan konten di tengah vertikal halaman */
+  background: linear-gradient(to bottom, #222, #444); /* Efek gradient */
+  color: rgb(0, 0, 0); /* Mengatur warna teks menjadi putih */
+}
+
+.bar {
+  fill: steelblue;
+}
+.bar:hover {
+  fill: orange;
+}
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: rgb(36, 95, 172);
+}
